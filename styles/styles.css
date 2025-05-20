@@ -53,12 +53,12 @@ aside {
     background-color: #eee;
     color: #333;
     text-align: var(--text-align);
+    position: relative;
 }
 
 aside img {
     width: var(--width);
     height: var(--height);
-    position: relative;
 }
 
 footer {
