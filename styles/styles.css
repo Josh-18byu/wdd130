@@ -26,6 +26,7 @@ nav a {
 
 h1 {
     color: darkblue;
+    padding: .5rem;
 }
 
 main img {
@@ -43,11 +44,11 @@ p {
 }
 
 main {
-    max-width: 250px;
+    max-width: 640px;
 }
 
 aside {
-    width: 20rem;
+    width: 20em;
     margin: var(--margin);
     border: var(--border);
     padding: var(--padding);
@@ -64,12 +65,12 @@ aside img {
 
 aside h2 {
     position: absolute;
-    top: 60px;
+    top: 67px;
     left: 150px;
 }
 
 footer {
-    margin-top: 15px;
+    margin-top: 1em;
     border-top: 1px solid #000;
     text-align: var(--text-align);
 }
@@ -79,6 +80,6 @@ footer {
     margin: var(--margin);
     border: var(--border);
     padding: var(--padding);
-    background-color: rgba(197, 0, 0, 0.1);
-    color: #ff9a9a;
+    background-color: #eee;
+    color: #000;
 }
