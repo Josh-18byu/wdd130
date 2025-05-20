@@ -8,7 +8,6 @@
     --padding: 1rem;
     --border: 1px solid rgb(0 0 0/ 0.2);
     --text-align: center;
-    --width: 20rem;
     --height: auto;
     --margin: 1rem;
 }
@@ -46,7 +45,7 @@ main {
 }
 
 aside {
-    width: var(--width);
+    width: 20rem;
     margin: var(--margin);
     border: var(--border);
     padding: var(--padding);
@@ -57,8 +56,9 @@ aside {
 }
 
 aside img {
-    width: var(--width);
+    width: 200px;
     height: var(--height);
+    position: relative;
 }
 
 footer {
