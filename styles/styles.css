@@ -58,6 +58,7 @@ aside {
 aside img {
     width: var(--width);
     height: var(--height);
+    position: relative;
 }
 
 footer {
