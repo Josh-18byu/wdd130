@@ -13,24 +13,25 @@ header{
 }
 
 *{
-    margin: 1;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body{
     font-family: var(--text-font);
-    color: var(--accent1-color)
+    color: var(--accent2-color)
 }
 
 header, main, footer{
     width: 820px;
     margin: 0 auto;
+    background-color: var(--second-color);
 }
 
 h1, h2{
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--accent2-color);
 }
 
 nav, p, section, article{
